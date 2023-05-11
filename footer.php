@@ -1,75 +1,86 @@
+<a id="button"></a>
 
-<a class="" id="button">
-	<img src="img/top-popup-icon.png" alt="">
-</a>
-
-	<!-- footer section start -->
-    <footer id="footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-md-6 col-12 ">
-						<a href="index.html"><img src="img/logo.png"></a>
-                      <div class="footer-about mt-3">
-                          <p>Alive Hospital and trauma centre (AHTC) is the first functioning trauma centre established in Nepal. AHTC is established by young dynamic doctors with an idea to help the needy people who bleed to death on the roads.  </p>
-                      </div>
-
-					</div>
-					<div class="col-lg-3 col-6 ">
-						<div class="useful-link">
-							<h2>Useful Links</h2>
-							
-							<div class="use-links">
-								<li><a href="index.html"><i class="fa-solid fa-angles-right"></i> Home</a></li>
-								<li><a href="about.html"><i class="fa-solid fa-angles-right"></i> About Us</a></li>
-								<li><a href="gallery.html"><i class="fa-solid fa-angles-right"></i> Gallery</a></li>
-								<li><a href="contact.html"><i class="fa-solid fa-angles-right"></i> Contact</a></li>
-							</div>
-						</div>
-
-					</div>
-                    <div class="col-lg-3 col-6 ">
-                        <div class="social-links">
-							<h2>Follow Us</h2>
-							
-							<div class="social-icons">
-								<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
-								<li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
-								<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
-							</div>
-						</div>
-                    
-
+<footer class="bg_black py-5 position-relative">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="logo_footer text-center">
+                    <img src="img/logo.png" class="img-fluid bg-white p-3" alt="">
+                </div>
+            </div>
+        </div>
+        <hr class="hr_custom position-relative">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="footer_block d-flex flex-column justify-content-center h-100 text-white text-center mb-lg-0 mb-3">
+                    <div class="mb-lg-3 mb-2">
+                        <h4>Location</h4>
                     </div>
-					<div class="col-lg-3 col-md-6 col-12 ">
-						<div class="address">
-							<h2>Address</h2>
-							
-							<div class="address-links">
-								<li class="address1"><i class="fa fa-map-marker" aria-hidden="true"></i>Bharatpur Height
-Bharatpur-10, Chitwan</li>
-								   <li><a href=""><i class="fa fa-phone" aria-hidden="true"></i> 056-525428,  056-525397.</a></li>
-								   <li><a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i>  info@ahtc.org.np</a></li>
-							</div>
-						</div>
-					</div>
-                  
-				</div>
-			</div>
+                    <p>Kathmandu, Nepal</p>
 
-		</footer>
-		<!-- footer section end -->
-		<!-- footer copy right section start -->
-		<section id="copy-right" class="p-0">
-			<div class="copy-right-sec"> 
-            Copyright © 2022 Alive Hospital and Trauma Centre <a href="#">Website by DigiSoft Developer</a> 
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer_block d-flex flex-column justify-content-center h-100 text-white text-center mb-lg-0 mb-3">
+                    <div class="mb-lg-3 mb-2">
+                        <h4>Phone</h4>
+                    </div>
+                    <a href="tel:01-5553000"> 01-5553000</a>
+
+                </div>
+            </div>
 
 
-			</div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer_block d-flex flex-column justify-content-center h-100 text-white text-center mb-lg-0 mb-3">
+                    <div class="mb-lg-3 mb-2">
+                        <h4>Email</h4>
+                    </div>
+                    <a href="mailto:digisoftdev@gmail.com"> digisoftdev@gmail.com</a>
 
-		</section>
-		<!-- footer copy right section end -->
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="d-flex flex-column justify-content-center h-100 border-0 text-white text-center">
+                    <div class="mb-lg-3 mb-2">
+                        <h4>Follow Us</h4>
+                    </div>
+                    <div class="social_icon py-2">
+                        <ul class="d-flex align-items-center justify-content-around">
+                            <li><a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 
-      
+                            </a>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr class="hr_custom position-relative">
+        <div class="row ">
+
+            <div class="col-12">
+                <div class="website_brand text-white text-center">
+
+                    <p> Copyright © 2023 Paramita Construction</p>
+
+                    <div class="mt-2">
+                        <p>Website by <a href=""><strong>ArchieSoft Technology
+                                </strong></a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<!-- footer end  -->
+
+
 <!-- <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script> -->
 <script src="js/jquery-1.12.4.min.js"></script>
 
@@ -80,7 +91,10 @@ Bharatpur-10, Chitwan</li>
 <script src="js/slick-animation.min.js"></script>
 <script src="js/wow.js"></script>
 <script src="js/font-awesom.js "></script>
-<script src="js/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
+<script src="js/typed.min.js"
+    integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+    crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
 </body>
+
 </html>
